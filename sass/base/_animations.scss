@@ -1,0 +1,49 @@
+/***Animation-header****/
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-10rem);
+        /*it goes from to left to right*/
+    }
+
+    80% {
+        transform: translateX(1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+        /*it will come in the middle*/
+    }
+}
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(10rem);
+        /*it goes from to right to left*/
+    }
+
+    80% {
+        transform: translateX(-1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+        /*it will come in the middle*/
+    }
+}
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(5rem);
+        /*it goes from to right to left*/
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+        /*it will come in the middle*/
+    }
+}
